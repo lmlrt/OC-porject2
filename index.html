@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booki</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel='stylesheet' media='screen and (max-width: 768px)' href='css/mobile.css'>
+	<link rel='stylesheet' media='screen and (min-width: 769px) and (max-width: 991px)' href='css/tablet.css'>
+	<link rel='stylesheet' media='screen and (min-width: 992px)' href='css/desktop.css'>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+</head>
+<body>
+	<div id="main">
+		
+		<header id="menu">
+			<img src="images/logo/Booki@3x.png" alt="Logo Booki" id="logo">
+			<nav>
+				<a href="#rental_list">Hebergements</a><a href="#activities">Activites</a>
+			</nav>
+		</header>
+
+		<section id="search">
+			<h1>Trouvez votre hebergement pour des vacances de reve</h1>
+			<h2>En plein centre ville ou en pleine nature</h2>
+			<form>
+				<button><i class="fa fa-map-marker" aria-hidden="true"></i></button><input type="text" value="Marseille, France" name="search_field"><div id="search_send"></div>
+			</form>
+			
+			<div id="search_filter_list">
+				<span>Filtres</span>
+				<a href="" id="economy" class="search_filter"><i class="fa fa-money" aria-hidden="true"></i>Economique</a>
+				<a href="" id="family" class="search_filter"><i class="fa fa-users" aria-hidden="true"></i>Familial</a>
+				<a href="" id="romantic" class="search_filter"><i class="fa fa-heart" aria-hidden="true"></i>Romantique</a>
+				<a href="" id="petsallowed" class="search_filter"><i class="fa fa-paw" aria-hidden="true"></i>Animaux autorises</a>
+			</div>
+
+			<span class="search_results"><i class="fa fa-info" aria-hidden="true"></i> Plus de 500 logements sont disponibles dans cette ville.</span>
+		</section>
+
+		<aside id="top_rentals">
+			<header><span class="segment_name">Les plus populaires<i class="fa fa-star segment_star" aria-hidden="true"></i></span></header>
+
+			<a href="" class="rental_large">
+				<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
+				<div class="rental_large_text">
+					<span class="rental_name">Hotel Le Soleil du Matin</span>
+					<span class="rental_price">Nuit a partir de <b>128$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+					</span>
+				</div>
+			</a>
+
+			<a href="" class="rental_large">
+				<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
+				<div class="rental_large_text">
+					<span class="rental_name">Au cours de l'eau Chambre d'hotes</span>
+					<span class="rental_price">Nuit a partir de <b>71$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</div>
+			</a>
+
+			<a href="" class="rental_large">
+				<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
+				<div class="rental_large_text">
+					<span class="rental_name">Hotel Tout Bleu et Blanc</span>
+					<span class="rental_price">Nuit a partir de <b>68$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</div>
+			</a>	
+		</aside>
+
+		<section id="rental_list">
+			<header><span class="segment_name">Hebergements a Marseille</span></header>
+
+			<div id="rental_list_display">
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></div>
+
+					<span class="rental_name">Auberge La Cannebiere</span>
+					<span class="rental_price">Nuit a partir de <b>25$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</a>
+
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></div>
+
+					<span class="rental_name">Hotel du port</span>
+					<span class="rental_price">Nuit a partir de <b>52$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+					</span>
+				</a>
+
+
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
+
+					<span class="rental_name">Hotel des Mouettes</span>
+					<span class="rental_price">Nuit a partir de <b>76$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</a>
+
+
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></div>
+
+					<span class="rental_name">Hotel de la mer</span>
+					<span class="rental_price">Nuit a partir de <b>23$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</a>
+
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
+
+					<span class="rental_name">Auberge Le Panier</span>
+					<span class="rental_price">Nuit a partir de <b>46$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ko" aria-hidden="true"></i>
+					</span>
+				</a>
+
+				<a href="" class="rental_small">
+					<div class="rental_img"><img alt="Image hebergement" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></div>
+
+					<span class="rental_name">Hotel chez Amina</span>
+					<span class="rental_price">Nuit a partir de <b>96$</b></span>
+					<span class="rental_rating">
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+						<i class="fa fa-star rental_rating_ok" aria-hidden="true"></i>
+					</span>
+				</a>
+			</div>
+			<footer>Afficher plus</footer>
+		</section>
+
+		<section id="section_activities">
+			<header><span class="segment_name">Activites a Marseille</span></header>
+			<div id="activities">
+
+				<a href="" class="activity_large">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"></div>
+					<div class="activity_label">Vieux Port</div>
+				</a>
+				<a href="" class="activity_medium">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"></div>
+					<div class="activity_label">Fort de Pomegues</div>
+				</a>
+				<a href="" class="activity_small">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"></div>
+					<div class="activity_label">Iles du Frioul</div>
+				</a>	
+
+				<a href="" class="activity_large">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"></div>
+					<div class="activity_label">Parc National des Calanques</div>
+				</a>
+				<a href="" class="activity_medium">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"></div>
+					<div class="activity_label">Notre-Dame-de-la-Garde</div>
+				</a>
+				<a href="" class="activity_small">
+					<div class="activity_img"><img alt="Image activite" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"></div>
+					<div class="activity_label">Parc Longchamp</div>
+				</a>	
+
+			</div>
+		</section>	
+
+	</div>
+	<footer>
+		<div class="footer_cat">
+			<span>A propos</span>
+			<a href="">Fonctionnement du site</a>
+			<a href="">Conditions generales de vente</a>
+			<a href="">Donnes et confidentialite</a>
+		</div>
+
+		<div class="footer_cat">
+			<span>Nos hebergements</span>
+			<a href="">Charte qualite</a>
+			<a href="">Soumettre votre hotel</a>
+		</div>
+
+		<div class="footer_cat">
+			<span>Assitance</span>
+			<a href="">Centre d'aide</a>
+			<a href="">Nous contacter</a>
+		</div>
+	</footer>
+</body>
+</html>
