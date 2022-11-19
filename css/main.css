@@ -38,7 +38,7 @@ body {
 	border-bottom-left-radius: 15px;
 	display: inline-block;
 	border: 1px solid var(--background_grey);
-	line-height: 45px;
+	line-height: 44px;
 	font-size: 18px;
 	color: black;
 }
@@ -59,6 +59,7 @@ body {
 #search_send::after {
 	text-align: center;
 	display: inline-block;
+	width: 48px;
 	height: 46px;
 	background-color: var(--accent);
 	color: #fff;
@@ -67,7 +68,7 @@ body {
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: 1px solid var(--background_grey);
-	line-height: 46px;
+	line-height: 44px;
 }
 #search_filter_list {
 	margin: 25px 0px 25px 0px;

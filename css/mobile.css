@@ -27,9 +27,7 @@ nav a:hover {
 #search_send::after {
 	content:  "\f002";
 	font: 21px FontAwesome;
-	line-height: 46px;
-	width: 48px;
-	height: 48px;
+	line-height: 44px;
 }
 .search_filter {
 	margin-right: 15px;
